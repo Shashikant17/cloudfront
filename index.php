@@ -9,7 +9,7 @@
   $cloudfront_url = `cat myimg.txt`;
   $img_path = "https://".$cloudfront_url."/gitterraaws.jpg";
   echo "<br>";
-  echo "<img src='${img_path}' width=200 height=200>";
+  echo "<img src='${img_path}' width=750 height=422>";
 ?>
 </body>
 </html>
