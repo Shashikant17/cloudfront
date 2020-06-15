@@ -6,7 +6,7 @@
 <p>Terraform integrated with AWS</p>
 <br>
 <?php
-  $cloudfront_url = `head -n1 myimg.txt`;
+  $cloudfront_url = `cat myimg.txt`;
   $img_path = "https://".$cloudfront_url."/gitterraaws.jpg";
   echo "<br>";
   echo "<img src='${img_path}' width=200 height=200>";
